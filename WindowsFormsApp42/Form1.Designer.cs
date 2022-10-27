@@ -57,18 +57,18 @@
             "4",
             "8",
             "9"});
-            this.listBox1.Location = new System.Drawing.Point(173, 79);
+            this.listBox1.Location = new System.Drawing.Point(173, 40);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 95);
+            this.listBox1.Size = new System.Drawing.Size(120, 134);
             this.listBox1.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(193, 202);
+            this.button1.Location = new System.Drawing.Point(173, 199);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
+            this.button1.Text = "Topla";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -77,9 +77,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(173, 237);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.Size = new System.Drawing.Size(89, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.label3.Text = "Sayıların Toplamı:";
             // 
             // Form1
             // 

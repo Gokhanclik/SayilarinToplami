@@ -24,7 +24,7 @@ namespace WindowsFormsApp42
             eleman = listBox1.Items.Count;
             while (sayi <= eleman - 1)
             {
-                toplam += Int16.Parse(listBox1.Items[sayi].ToString());
+                toplam += Convert.ToInt32(listBox1.Items[sayi]);
                 sayi++;
             }
 
